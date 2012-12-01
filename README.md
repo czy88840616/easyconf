@@ -11,7 +11,8 @@
 
 ## 使用
 
-     var conf = new easyconf('./nconf_demo.json');
+     var easyconf = require('easyconf'),
+         conf = new easyconf('./nconf_demo.json');
 
      conf.set('use', 'cart');
      conf.get('vmcommon');
