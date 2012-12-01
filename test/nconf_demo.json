@@ -1,0 +1,36 @@
+{
+    "vmcommon": "/home/vmcommon",
+    "apps": {
+        "tradeface": {
+            "root": "/home/tradeface",
+            "webRoot": "/home/tradeface/tf-web/main/webapp",
+            "macros": [],
+            "subModule": {
+                "auction": {
+                    "screen": "/home/tradeface/tf-web/main/webapp/auction/templates/screen",
+                    "layout": "/home/tradeface/tf-web/main/webapp/auction/templates/layout",
+                    "control": "/home/tradeface/tf-web/main/webapp/auction/templates/control"
+                },
+                "trade": {}
+            },
+            "data": "/home",
+            "tools": {}
+        },
+        "cart": {}
+    },
+    "use": "cart",
+    "rules": [
+        {
+            "type": "string",
+            "pattern": "kissy-min.js",
+            "target": "kissy.js",
+            "proxyDomain": "a.tbcdn.cn"
+        },
+        {
+            "type": "regexp",
+            "pattern": "\\.source\\.js",
+            "target": "\\.js",
+            "proxyDomain": "a.tbcdn.cn"
+        }
+    ]
+}

@@ -11,6 +11,13 @@
 
 ## 使用
 
+     var conf = new easyconf('./nconf_demo.json');
+
+     conf.set('use', 'cart');
+     conf.get('vmcommon');
+     conf.save(function(err) {
+        //TODO
+     });
 
 ## License
 easyconf 遵守 "MIT"：https://github.com/czy88840616/easyconf/blob/master/LICENSE.md 协议
