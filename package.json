@@ -2,7 +2,7 @@
     "author":"Harry <czy88840616@gmail.com>",
     "name":"easyconf",
     "description":"The easy method to read and write config",
-    "version":"0.0.1",
+    "version":"0.0.2",
     "keywords":[
         "json",
         "config"
@@ -28,6 +28,6 @@
         }
     ],
     "dependencies":{
-
+        "mkdirp":">=0.3.4"
     }
 }

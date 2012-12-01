@@ -12,7 +12,7 @@ describe('test', function() {
         console.log(conf.get('vmcommon'));
         conf.set('use', 'cart');
         conf.save(function(){
-            new easyconf('./test.json');
+            new easyconf('./test/test.json');
             done();
         });
 
