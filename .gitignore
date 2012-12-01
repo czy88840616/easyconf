@@ -1,0 +1,9 @@
+# Mac crap
+.DS_Store
+
+*.ipr
+*.iml
+*.iws
+target/
+node_modules
+/*.iws~

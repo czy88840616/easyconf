@@ -1,0 +1,33 @@
+{
+    "author":"Harry <czy88840616@gmail.com>",
+    "name":"easyconf",
+    "description":"The easy method to read and write config",
+    "version":"0.0.1",
+    "keywords":[
+        "json",
+        "config"
+    ],
+    "bugs":{
+        "url":"https://github.com/czy88840616/easyconf/issues"
+    },
+    "repository":{
+        "type":"git",
+        "url":"git://github.com/czy88840616/easyconf.git"
+    },
+    "scripts":{
+        "test":"./node_modules/.bin/mocha"
+    },
+    "main":"./lib/index.js",
+    "engines":{
+        "node":">=0.8.0"
+    },
+    "licenses":[
+        {
+            "type":"MIT",
+            "url":"https://github.com/czy88840616/easyconf/blob/master/LICENSE.md"
+        }
+    ],
+    "dependencies":{
+
+    }
+}
