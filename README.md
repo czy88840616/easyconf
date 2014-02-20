@@ -11,14 +11,20 @@
 
 ## 使用
 
-     var easyconf = require('easyconf'),
-         conf = new easyconf('./nconf_demo.json');
+```js
+var easyconf = require('easyconf'),
+    conf = new easyconf('./nconf_demo.json');
 
-     conf.set('use', 'cart');
-     conf.get('vmcommon');
-     conf.save(function(err) {
-        //TODO
-     });
+conf.set('use', 'cart');
+conf.get('vmcommon');
+conf.save(function(err) {
+//TODO
+});
+
+or 
+
+conf.saveSync();
+```
 
 ## License
 easyconf 遵守 "MIT"：https://github.com/czy88840616/easyconf/blob/master/LICENSE.md 协议
