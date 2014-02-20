@@ -2,12 +2,17 @@
 一个简化的json配置文件读写器
 
 ## 安装
-    (sudo) npm install easyconf
+
+```bash
+npm install easyconf
+```
 
 或者
 
-    git clone git://github.com/czy88840616/easyconf.git
-    npm link
+```bash
+git clone git://github.com/czy88840616/easyconf.git
+npm link
+```
 
 ## 使用
 

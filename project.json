@@ -1,0 +1,10 @@
+{
+    "type": "tb",
+    "svn": {},
+    "git": {
+        "easyconf": {
+            "url": "git@gitlab.alibaba-inc.com:tb/easyconf.git",
+            "version": "master"
+        }
+    }
+}
