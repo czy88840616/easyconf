@@ -22,6 +22,7 @@ var easyconf = require('easyconf'),
 
 conf.set('use', 'cart');
 conf.get('vmcommon');
+conf.remove('use');
 conf.save(function(err) {
 //TODO
 });
