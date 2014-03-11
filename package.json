@@ -2,7 +2,7 @@
     "author":"Harry <czy88840616@gmail.com>",
     "name":"easyconf",
     "description":"The easy method to read and write config",
-    "version":"0.0.5",
+    "version":"0.0.6",
     "keywords":[
         "json",
         "config"
